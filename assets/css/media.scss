@@ -1,0 +1,119 @@
+
+
+@media (min-width: 320px) and (max-width: 991px) { 
+
+	section.infographic .footer, section.infographic {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 925px) { 
+
+
+	section.infographic .text_block {
+		max-width: 275px;
+	}
+	.col_1 .trianlge .top {
+		border-width: 108px 0 0 162px;
+	}
+	.col_1 .trianlge .bottom {
+		border-width: 108px 162px 0 0;
+	}
+	.col_2 .trianlge .top {
+		border-width: 0 0 108px 162px;
+	}
+	.col_2 .trianlge .bottom {
+		border-width: 0 162px 108px 0;
+	}
+	section.infographic .main_wrapper .col.col_2 {
+		padding-top: 22px;
+	}
+}
+
+
+@media (min-width: 320px) and (max-width: 767px) { 
+
+	section.infographic .main_wrapper {
+		flex-direction: column;
+	}
+	section.infographic .text_block {
+		max-width: none;
+	}
+
+	.col_1 {
+		margin-right: 20%;
+	}
+	.col_2 {
+		margin-right: 20%;
+	}
+
+	.col .trianlge {
+		right: -100px;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
+	.col_2 .trianlge {
+		left: auto;
+	}
+	section.infographic .text_block.red .trianlge .top {
+		border-color: transparent transparent transparent #EF4756;
+	}
+	section.infographic .text_block.red .trianlge .bottom {
+		border-color: #DC4357 transparent transparent transparent;
+	}
+	section.infographic .text_block.dark_blue .trianlge .top {
+		border-color: transparent transparent transparent #005F90;
+	}
+	section.infographic .text_block.dark_blue .trianlge .bottom {
+		border-color: #005574 transparent transparent transparent;
+	}
+	.col_1 .icon {
+		left: 0;
+	}
+	.col_2 .icon {
+		right: 0;
+	}
+	section.infographic .main_wrapper .col.col_2 {
+		padding-top: 0;
+	}
+
+}
+
+@media (min-width: 570px) and (max-width: 767px) { 
+
+	.col_1 .trianlge .top,
+	.col_2 .trianlge .top {
+		border-width: 83px 0 0 100px;
+	}
+	.col_1 .trianlge .bottom,
+	.col_2 .trianlge .bottom  {
+		border-width: 83px 100px 0 0;
+	}
+
+}
+@media (min-width: 320px) and (max-width: 569px) { 
+
+	.col_1 .trianlge .top,
+	.col_2 .trianlge .top {
+		border-width: 83px 0 0 50px;
+	}
+	.col_1 .trianlge .bottom,
+	.col_2 .trianlge .bottom {
+		border-width: 83px 50px 0 0;
+	}
+	.col .trianlge {
+		right: -50px;
+	}
+	section.infographic .text_block {
+		padding: 45px 20px;
+	}
+	section.infographic .text_block h6 {
+		margin-bottom: 5px;
+	}
+	.trianlge .icon {
+		font-size: 30px;
+	}
+
+}
